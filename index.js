@@ -11,6 +11,7 @@ class GitHubRepository {
     this.descriptionOfRepository=descriptionOfRepository;
     this.code=code;
 }
+// you should use console.log() instead of alert()
     printClass() {
         alert(this.userName);
         alert(this.fileName);
@@ -56,6 +57,6 @@ console.log(myMovie.rating);
 
 let hisMovie = new Movie("Players Club","3 stars","1999");
 
-hisMovie.changeYearReleased("1999");
+hisMovie.changeYearReleased("2019");
 console.log(hisMovie.yearReleased);
 
